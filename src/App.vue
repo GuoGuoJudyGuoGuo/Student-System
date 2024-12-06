@@ -17,7 +17,7 @@ const showTeacher = () => {
 <style>
 .fixed-size {
     width: 900px; /* Set a fixed width */
-    height: 600px; /* Set a fixed height */
+    /* height: 600px; Set a fixed height */
     overflow: hidden; /* Hide overflow content */
     box-sizing: border-box; /* Include padding and border in width and height */
 }

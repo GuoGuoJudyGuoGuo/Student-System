@@ -61,7 +61,7 @@ button {
 <template>
   <div>
     <div>
-      <h2>Select a Teacher:</h2>
+      <h2>Please choice your name:</h2>
       <div>
         <button
           v-for="teacher in teachers"
@@ -105,7 +105,7 @@ button {
         </tr>
       </tbody>
     </table>
-    <button @click="submitAll">Submit All</button>
+    <button @click="submitAll">Save</button>
   </div>
 </template>
 

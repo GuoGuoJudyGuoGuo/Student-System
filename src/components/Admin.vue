@@ -12,6 +12,7 @@ for (const [teacher, studentsOfTeacher] of teacherStudentMap) {
     students.value.push(student.clone())
   }
 }
+students.value.sort((a, b) => a.studentId-b.studentId);
 
 const props = defineProps({
   msg: {
@@ -100,7 +101,7 @@ button {
       </tbody>
     </table>
     <button @click="addItem">Add Student</button>
-    <button @click="submitAll">Submit All</button>
+    <button @click="submitAll">Save</button>
   </div>
 
 </template>
